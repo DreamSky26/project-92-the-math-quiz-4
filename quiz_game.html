@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+</head>
+<body>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">The Math Quiz</h2>
+		<h3 id="player_question" style="color: rgb(33, 85, 182); font-size: 28px;"></h3>
+		<h3 id="player_answer"></h3>
+        <br>
+        <h6 id="score_message"></h6>
+		<br>
+		<div id="output" class="col-lg-6"></div>
+        <br>
+        <br>
+        <h4>Number 1</h4>
+        <br>
+        <input type="number" class="form-control" id="number_1" placeholder="Number 1">
+        <br>
+        <h4>Number 2</h4>
+        <br>
+        <input type="number" class="form-control" id="number_2" placeholder="Number 2">
+        <br>
+        <br>
+        <button id="lg_btn" style="width: 30%;" onclick="send(); colChng4LgBtn();" class="btn btn-info">Let's Go!</button>
+        <br><br>
+	</center>
+</div>
+
+<script src="quiz_game.js"></script>
+</body>
+</html>

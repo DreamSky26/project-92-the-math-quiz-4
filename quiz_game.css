@@ -1,0 +1,23 @@
+body
+{
+	background: lightblue;
+}
+#output
+{
+    background: rgb(66, 176, 212);
+    border-radius: 10px;
+    border-top: 10px solid rgb(33, 85, 182);
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+h4
+{
+    color: white;
+}
+h6
+{
+    color: rgb(0, 52, 97);
+    font-style: bold;
+    font-size: 15px;
+}
